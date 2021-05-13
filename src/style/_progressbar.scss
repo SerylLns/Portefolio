@@ -1,0 +1,20 @@
+.progressbar{
+  width: 50vw;
+  border: 2px solid #323232;
+  height: 4vh;
+  border-radius: 10px;
+}
+.progress{
+  background-color: #0d7377;
+  height: 100%;
+  animation: progress 2s ease-in;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+}
+
+@keyframes progress {
+  from{
+    width: 0;
+  }
+}

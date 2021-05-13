@@ -1,0 +1,203 @@
+.contact-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Fauna One', serif ;
+}
+.contact-right-part{
+  margin-left: 5%;
+  width: 50%;
+  h5{
+    font-size: 32px;
+    text-align: center;
+    color: $light-blue;
+  }
+  form{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    input{
+      font-size: 20px;
+      width: 85%;
+      font-weight: 600;
+      font-family: 'Fauna One', serif;
+    }
+    input[type="text"], input[type="email"]{
+      margin: 20px;
+      padding: 10px;
+      border-radius: 18px;
+      border-bottom-right-radius: 2px;
+      border: none;
+      background-color: #C8C2AE;
+    }
+    textarea{
+      width: 85%;
+      margin: auto;
+      font-size: 18px;
+      background-color: #C8C2AE;
+      padding: 15px;
+      border-radius: 18px;
+      border-bottom-right-radius: 2px;
+      max-height: 150px;
+      min-width: 85%;
+      max-width: 85%;
+    }
+    button[type="submit"]{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: 'Fauna One', serif;
+      img{
+        width: 15%;
+        margin-left: 20px;
+        // transform: rotateZ(70deg);
+        transition: transform 1s;
+      }
+      background-color: rgba($color: $light-blue, $alpha: .6);
+      border: none;
+      // padding: 15px;
+      margin: 20px 30px;
+      font-weight: 900;
+      border-bottom-left-radius: 18px;
+      border-top-right-radius: 18px;
+      transition: background-color 0.5s;
+      &:hover{
+        img{
+          transform:translate(15px, -3px);
+          transition: 1s;
+        }
+        cursor: pointer;
+        background-color: rgba($color: $light-blue, $alpha: 1);
+        transition: background-color 0.5s;
+      }
+    }
+  }
+}
+.social-media{
+  position: absolute;
+  bottom: 7%;
+  right: 7%;
+  height: 7%;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  a{
+    height: 100%;
+  }
+  img{
+    height: 100%;
+    &:hover{
+      animation: social-anim 0.6s ease-in-out;
+      transition: transform 0.3s;
+    }
+  }
+}
+@keyframes social-anim{
+  10%{
+    transform: rotateZ(-45deg) scale(1.1);
+  }
+  60%{
+    transform: rotateZ(45deg) scale(1.2);
+  }
+  80%{
+    transform: rotateZ(10deg) scale(1.1);
+  }
+}
+
+.email-success{
+  // display: none;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  width: 35vw;
+  height: 20vh;
+  background-color:rgba($color: #0d8377, $alpha: .8);
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  p{
+    font-size: 1.3em;
+    font-family: 'Fauna One', serif;
+  }
+  button{ 
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: #323232;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+}
+.loading-email{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($color: #323232 , $alpha: .9);
+  .loading-content{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+      font-size: 2em;
+      color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    .contact-right-part{
+      width: 90%;
+      button{
+        padding: 10px;
+      }
+    }
+    .social-media{
+      position: relative;
+      // bottom: 10%;
+      // transform: translate(-50%, -50%);
+      // left: 30%;
+      width: 100%;
+      bottom: 0;
+      right: 0;
+      margin-top: 40px;
+      img{
+        margin: 15px;
+      }
+    }
+  }
+  .email-success{
+    top: 40%;
+    left: 50%;
+    width: 70%;
+    button{
+      width: 30%;
+      font-size: 1em;
+      font-weight: 600;
+    }
+  }
+}
