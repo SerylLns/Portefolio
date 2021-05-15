@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/serylPortefolio/static/css/main.f059e85d.chunk.css",
-    "main.js": "/serylPortefolio/static/js/main.68d4a5ad.chunk.js",
-    "main.js.map": "/serylPortefolio/static/js/main.68d4a5ad.chunk.js.map",
-    "runtime-main.js": "/serylPortefolio/static/js/runtime-main.ae69b215.js",
-    "runtime-main.js.map": "/serylPortefolio/static/js/runtime-main.ae69b215.js.map",
-    "static/css/2.ab75b8d7.chunk.css": "/serylPortefolio/static/css/2.ab75b8d7.chunk.css",
-    "static/js/2.57606970.chunk.js": "/serylPortefolio/static/js/2.57606970.chunk.js",
-    "static/js/2.57606970.chunk.js.map": "/serylPortefolio/static/js/2.57606970.chunk.js.map",
-    "index.html": "/serylPortefolio/index.html",
-    "static/css/2.ab75b8d7.chunk.css.map": "/serylPortefolio/static/css/2.ab75b8d7.chunk.css.map",
-    "static/css/main.f059e85d.chunk.css.map": "/serylPortefolio/static/css/main.f059e85d.chunk.css.map",
-    "static/js/2.57606970.chunk.js.LICENSE.txt": "/serylPortefolio/static/js/2.57606970.chunk.js.LICENSE.txt",
-    "static/media/CVSerylLounis.3781a433.pdf": "/serylPortefolio/static/media/CVSerylLounis.3781a433.pdf",
-    "static/media/airplane.371fa84d.svg": "/serylPortefolio/static/media/airplane.371fa84d.svg",
-    "static/media/email.507e95b6.svg": "/serylPortefolio/static/media/email.507e95b6.svg",
-    "static/media/github.7894bcfa.svg": "/serylPortefolio/static/media/github.7894bcfa.svg",
-    "static/media/linkedin.981931b1.svg": "/serylPortefolio/static/media/linkedin.981931b1.svg",
-    "static/media/right-arrow.eb161018.svg": "/serylPortefolio/static/media/right-arrow.eb161018.svg",
-    "static/media/right_arrow.b0ed86cb.svg": "/serylPortefolio/static/media/right_arrow.b0ed86cb.svg"
+    "main.css": "/porteFolio/static/css/main.7d1c9b7c.chunk.css",
+    "main.js": "/porteFolio/static/js/main.1d650308.chunk.js",
+    "main.js.map": "/porteFolio/static/js/main.1d650308.chunk.js.map",
+    "runtime-main.js": "/porteFolio/static/js/runtime-main.26de4fae.js",
+    "runtime-main.js.map": "/porteFolio/static/js/runtime-main.26de4fae.js.map",
+    "static/css/2.ab75b8d7.chunk.css": "/porteFolio/static/css/2.ab75b8d7.chunk.css",
+    "static/js/2.5a51bf34.chunk.js": "/porteFolio/static/js/2.5a51bf34.chunk.js",
+    "static/js/2.5a51bf34.chunk.js.map": "/porteFolio/static/js/2.5a51bf34.chunk.js.map",
+    "index.html": "/porteFolio/index.html",
+    "static/css/2.ab75b8d7.chunk.css.map": "/porteFolio/static/css/2.ab75b8d7.chunk.css.map",
+    "static/css/main.7d1c9b7c.chunk.css.map": "/porteFolio/static/css/main.7d1c9b7c.chunk.css.map",
+    "static/js/2.5a51bf34.chunk.js.LICENSE.txt": "/porteFolio/static/js/2.5a51bf34.chunk.js.LICENSE.txt",
+    "static/media/CVSerylLounis.3781a433.pdf": "/porteFolio/static/media/CVSerylLounis.3781a433.pdf",
+    "static/media/airplane.371fa84d.svg": "/porteFolio/static/media/airplane.371fa84d.svg",
+    "static/media/email.507e95b6.svg": "/porteFolio/static/media/email.507e95b6.svg",
+    "static/media/github.7894bcfa.svg": "/porteFolio/static/media/github.7894bcfa.svg",
+    "static/media/linkedin.981931b1.svg": "/porteFolio/static/media/linkedin.981931b1.svg",
+    "static/media/right-arrow.eb161018.svg": "/porteFolio/static/media/right-arrow.eb161018.svg",
+    "static/media/right_arrow.b0ed86cb.svg": "/porteFolio/static/media/right_arrow.b0ed86cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae69b215.js",
+    "static/js/runtime-main.26de4fae.js",
     "static/css/2.ab75b8d7.chunk.css",
-    "static/js/2.57606970.chunk.js",
-    "static/css/main.f059e85d.chunk.css",
-    "static/js/main.68d4a5ad.chunk.js"
+    "static/js/2.5a51bf34.chunk.js",
+    "static/css/main.7d1c9b7c.chunk.css",
+    "static/js/main.1d650308.chunk.js"
   ]
 }
