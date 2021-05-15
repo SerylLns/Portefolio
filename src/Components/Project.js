@@ -9,13 +9,7 @@ const Project = ({projet}) => {
   };
 
   return (
-    <motion.div
-      className="projet-container"
-      initial={{ opacity: 0, y: 200 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0 }}
-      transition={transition}
-    >
+    <div className="projet-container">
       <div className="left-part">
         <div className="head-card">
           <h3>{projet.title}</h3>
@@ -33,7 +27,13 @@ const Project = ({projet}) => {
         </a>
       </div>
       <div className="right-part">
-        <div className="carousel">
+        <motion.div
+          className="carousel"
+          initial={{ opacity: 0, y: 200 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0 }}
+          transition={transition}
+        >
           <Carousel
             cols={1}
             rows={1}
@@ -53,9 +53,9 @@ const Project = ({projet}) => {
               );
             })}
           </Carousel>
-        </div>
+        </motion.div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
