@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/porteFolio/static/css/main.7d1c9b7c.chunk.css",
-    "main.js": "/porteFolio/static/js/main.1d650308.chunk.js",
-    "main.js.map": "/porteFolio/static/js/main.1d650308.chunk.js.map",
+    "main.css": "/porteFolio/static/css/main.c2dcd826.chunk.css",
+    "main.js": "/porteFolio/static/js/main.95dd9668.chunk.js",
+    "main.js.map": "/porteFolio/static/js/main.95dd9668.chunk.js.map",
     "runtime-main.js": "/porteFolio/static/js/runtime-main.26de4fae.js",
     "runtime-main.js.map": "/porteFolio/static/js/runtime-main.26de4fae.js.map",
     "static/css/2.ab75b8d7.chunk.css": "/porteFolio/static/css/2.ab75b8d7.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.5a51bf34.chunk.js.map": "/porteFolio/static/js/2.5a51bf34.chunk.js.map",
     "index.html": "/porteFolio/index.html",
     "static/css/2.ab75b8d7.chunk.css.map": "/porteFolio/static/css/2.ab75b8d7.chunk.css.map",
-    "static/css/main.7d1c9b7c.chunk.css.map": "/porteFolio/static/css/main.7d1c9b7c.chunk.css.map",
+    "static/css/main.c2dcd826.chunk.css.map": "/porteFolio/static/css/main.c2dcd826.chunk.css.map",
     "static/js/2.5a51bf34.chunk.js.LICENSE.txt": "/porteFolio/static/js/2.5a51bf34.chunk.js.LICENSE.txt",
     "static/media/CVSerylLounis.3781a433.pdf": "/porteFolio/static/media/CVSerylLounis.3781a433.pdf",
     "static/media/airplane.371fa84d.svg": "/porteFolio/static/media/airplane.371fa84d.svg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.26de4fae.js",
     "static/css/2.ab75b8d7.chunk.css",
     "static/js/2.5a51bf34.chunk.js",
-    "static/css/main.7d1c9b7c.chunk.css",
-    "static/js/main.1d650308.chunk.js"
+    "static/css/main.c2dcd826.chunk.css",
+    "static/js/main.95dd9668.chunk.js"
   ]
 }
