@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Switch location={location}>
           <Route exact path="/" component={Home} />
-          <Route exact path="/serylPortefolio/" component={Home} />
+          <Route exact path="/porteFolio" component={Home} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/skill" component={Skill} />
